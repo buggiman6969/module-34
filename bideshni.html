@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O OG Bideshini</title>
+</head>
+<style>
+    body{
+        background-color: rgb(231, 202, 231);
+    }
+    .personal-info {
+        background-color: lightskyblue;
+        width: 40%;
+        padding: 3%;
+        border-radius: 25px;
+    }
+
+    .btn {
+        background-color: peru;
+        width: 150px;
+        padding: 10px;
+        border: none;
+        border-radius: 15px;
+        font-size: 20px;
+        color: white;
+    }
+
+    @media screen and (max-width: 576px) {
+        .personal-info {
+            width: 80%;
+            margin-left: 7%;
+            margin-right: 10%;
+        }
+    }
+</style>
+
+<body>
+    <h1>Looking for Bideshini</h1>
+    <div class="personal-info">
+        <h2>Name: <span id="name"></span></h2>
+        <h4>Gender: <span id="gender"></span></h4>
+        <h5>Location: <span id="location"></span></h5>
+        <button class="btn" onclick="loadUser()">Reload</button>
+    </div>
+    <!-- javascript -->
+    <script src="./js/bideshini.js"></script>
+</body>
+
+</html>
