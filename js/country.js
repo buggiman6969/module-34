@@ -12,7 +12,8 @@ const displayCountries = countries =>{
         countryDiv.classList.add('country');
         countryDiv.innerHTML = `
         <h3>Name: ${country.name.common}</h3>
-        <p><i> Capital ${ country.capital}</i></p>
+        <p><i> Capital: ${ country.capital}</i></p>
+        <button class="btn">Details</button>
         ` 
         countryContainer.appendChild(countryDiv)
         
